@@ -30,11 +30,16 @@ set(gca,'YTick',[10^0,10^1,10^2]);
 set(gca,'YTickLabel',{'10^0','10^1','10^2'});
 %set(gca,'position',[left,top,width,height])  
 set (gca,'position',[0.06,0.76,0.2,0.15] )
-legend([h1,h2,h3,h4],'Regime 1','Regime 2','Regime 3','Regime 4','FontSize',11,'FontWeight','bold','Position', [0.895, 0.54, 0.1, 0.12]);
+hh1 = plot(nan,nan,'+','Color',col1,'MarkerSize',5);
+hh2 = plot(nan,nan,'d','Color',col2,'MarkerSize',5);
+hh3 = plot(nan,nan,'^','Color',col3,'MarkerSize',5);
+hh4 = plot(nan,nan,'p','Color',col4,'MarkerSize',6);
+legend([hh1,hh2,hh3,hh4],'Regime 1','Regime 2','Regime 3','Regime 4','FontSize',11,'FontWeight','bold','Position', [0.34, 0.08, 0.25, 0.06],'Orientation','horizontal');
+% legend([h1,h2,h3,h4],'Regime 1','Regime 2','Regime 3','Regime 4','FontSize',11,'FontWeight','bold','Position', [0.34, 0.08, 0.25, 0.06],'Orientation','horizontal');
 legend('boxoff')
 ylabel('\phi_{u}','FontSize',10,'fontweight','bold')
 set(gca,'linewidth',1.5,'fontsize',13,'fontweight','bold');
-text(0.9, 1.18, 'original', 'Units', 'normalized', 'FontWeight', 'bold', 'FontSize', 13);
+text(0.9, 1.18, 'Original', 'Units', 'normalized', 'FontWeight', 'bold', 'FontSize', 13);
 box off
 ax2 = axes('Position',get(gca,'Position'),'XAxisLocation','top',...
     'YAxisLocation','right','Color','none','XColor','k','YColor','k');  
@@ -224,7 +229,7 @@ set(gca,'YTickLabel',{});
 %set(gca,'position',[left,top,width,height])  
 set (gca,'position',[0.50,0.76,0.2,0.15] )
 set(gca,'linewidth',1.5,'fontsize',13,'fontweight','bold');
-text(0.87, 1.18, 'turbulent', 'Units', 'normalized', 'FontWeight', 'bold', 'FontSize', 13);
+text(0.87, 1.18, 'Turbulent', 'Units', 'normalized', 'FontWeight', 'bold', 'FontSize', 13);
 box off
 ax2 = axes('Position',get(gca,'Position'),'XAxisLocation','top',...
     'YAxisLocation','right','Color','none','XColor','k','YColor','k');  

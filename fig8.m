@@ -24,7 +24,7 @@ set(gca,'XTickLabel',{'-10^1','-10^0','-10^{-1}','-10^{-2}'});
 set(gca,'YTick',[0,0.2,0.4,0.6,0.8,1]);
 set(gca,'YTickLabel',{'0','0.2','0.4','0.6','0.8','1'});
 set (gca,'position',[0.09,0.575,0.4,0.35] )
-xlabel('Ri','FontSize',10,'fontweight','bold');
+xlabel('$\mathbf{Ri}_{\mathbf{b}}$','Interpreter','latex','FontSize',11,'fontweight','bold');
 ylabel('Fraction','FontSize',10,'fontweight','bold');
 set(gca,'linewidth',1.5,'fontsize',13,'fontweight','bold');
 legend('Regime 2 \tau_{ori}','Regime 2 \tau_{tur}','Regime 4 \tau_{ori}','Regime 4 \tau_{tur}','location','northwest','FontSize',11,'FontWeight','bold','NumColumns',2);
@@ -45,7 +45,7 @@ set(gca,'XTickLabel',{'10^{-2}','10^{-1}','10^0','10^1',});
 set(gca,'YTick',[0,0.2,0.4,0.6,0.8,1]);
 set(gca,'YTickLabel',{'0','0.2','0.4','0.6','0.8','1'});
 set (gca,'position',[0.575,0.575,0.4,0.35] )
-xlabel('Ri','FontSize',10,'fontweight','bold');
+xlabel('$\mathbf{Ri}_{\mathbf{b}}$','Interpreter','latex','FontSize',11,'fontweight','bold');
 set(gca,'linewidth',1.5,'fontsize',13,'fontweight','bold');
 text(5.5,0.93,'(b)','FontSize',13,'fontweight','bold');
 
@@ -64,7 +64,7 @@ set(gca,'XTickLabel',{'-10^1','-10^0','-10^{-1}','-10^{-2}'});
 set(gca,'YTick',[0,0.2,0.4,0.6,0.8,1]);
 set(gca,'YTickLabel',{'0','0.2','0.4','0.6','0.8','1'});
 set (gca,'position',[0.09,0.125,0.4,0.35] )
-xlabel('Ri','FontSize',10,'fontweight','bold');
+xlabel('$\mathbf{Ri}_{\mathbf{b}}$','Interpreter','latex','FontSize',11,'fontweight','bold');
 ylabel('Fraction','FontSize',10,'fontweight','bold');
 set(gca,'linewidth',1.5,'fontsize',13,'fontweight','bold');
 legend('Regime 2 H_{ori}','Regime 2 H_{tur}','Regime 4 H_{ori}','Regime 4 H_{tur}','location','northwest','FontSize',11,'FontWeight','bold','NumColumns',2);
@@ -85,7 +85,7 @@ set(gca,'XTickLabel',{'10^{-2}','10^{-1}','10^0','10^1',});
 set(gca,'YTick',[0,0.2,0.4,0.6,0.8,1]);
 set(gca,'YTickLabel',{'0','0.2','0.4','0.6','0.8','1'});
 set (gca,'position',[0.575,0.125,0.4,0.35] )
-xlabel('Ri','FontSize',10,'fontweight','bold');
+xlabel('$\mathbf{Ri}_{\mathbf{b}}$','Interpreter','latex','FontSize',11,'fontweight','bold');
 set(gca,'linewidth',1.5,'fontsize',13,'fontweight','bold');
 text(5.5,0.93,'(d)','FontSize',13,'fontweight','bold');
 

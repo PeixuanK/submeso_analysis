@@ -107,7 +107,7 @@ legend('boxoff');
 ylim([-6,0]);xlim([-11,7]);
 set(gca,'XTick',[-10,-8,-6,-4,-2,0,2,4,6,8]);
 set(gca,'XTickLabel',{'-10','-8','-6','-4','-2','0','2','4','6','8'});
-xlabel('ln(-Ri)','FontSize',10,'fontweight','bold');
+xlabel('$\mathbf{ln}\,(\mathbf{-Ri}_{\mathbf{b}})$','Interpreter','latex','FontSize',10,'fontweight','bold');
 ylabel('ln(\sigma_{w(sub)}/U)','FontSize',10,'fontweight','bold');
 set(gca, 'XDir', 'reverse');
 set (gca,'position',[0.12,0.12,0.36,0.22] )
@@ -130,7 +130,7 @@ legend('boxoff');
 ylim([-6,0]);xlim([-11,7]);
 set(gca,'XTick',[-10,-8,-6,-4,-2,0,2,4,6,8]);
 set(gca,'XTickLabel',{'-10','-8','-6','-4','-2','0','2','4','6','8'});
-xlabel('ln(Ri)','FontSize',10,'fontweight','bold');
+xlabel('$\mathbf{ln}\,(\mathbf{Ri}_{\mathbf{b}})$','Interpreter','latex','FontSize',10,'fontweight','bold');
 set (gca,'position',[0.52,0.12,0.36,0.22] )
 set(gca,'linewidth',1.5,'fontsize',12,'fontweight','bold');
 text(-10.5,-0.7,'(f)','FontSize',13,'fontweight','bold');
@@ -242,7 +242,7 @@ legend('boxoff');
 ylim([-6,0]);xlim([-8,7]);
 set(gca,'XTick',[-10,-8,-6,-4,-2,0,2,4,6,8]);
 set(gca,'XTickLabel',{'-10','-8','-6','-4','-2','0','2','4','6','8'});
-xlabel('ln(-Ri)','FontSize',10,'fontweight','bold');
+xlabel('$\mathbf{ln}\,(\mathbf{-Ri}_{\mathbf{b}})$','Interpreter','latex','FontSize',10,'fontweight','bold');
 ylabel('ln(\sigma_{w(sub)}/U)','FontSize',10,'fontweight','bold');
 set(gca, 'XDir', 'reverse');
 set (gca,'position',[0.12,0.12,0.36,0.22] )
@@ -265,7 +265,7 @@ legend('boxoff');
 ylim([-6,0]);xlim([-8,7]);
 set(gca,'XTick',[-10,-8,-6,-4,-2,0,2,4,6,8]);
 set(gca,'XTickLabel',{'-10','-8','-6','-4','-2','0','2','4','6','8'});
-xlabel('ln(Ri)','FontSize',10,'fontweight','bold');
+xlabel('$\mathbf{ln}\,(\mathbf{Ri}_{\mathbf{b}})$','Interpreter','latex','FontSize',10,'fontweight','bold');
 set (gca,'position',[0.52,0.12,0.36,0.22] )
 set(gca,'linewidth',1.5,'fontsize',12,'fontweight','bold');
 text(-7.5,-0.7,'(f)','FontSize',13,'fontweight','bold');
